@@ -1,0 +1,109 @@
+body{
+    color: white;
+    margin:0px;
+    padding: 0px;
+    background: url(bg.jpg);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+    
+}
+.left{
+
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+
+}
+.left img{
+    width:77px;
+    /* filter:invert(100%) */
+}
+.left div{
+    text-align: center;
+    font-family: fantasy;
+    border: 1px solid rgb(224, 224, 138);
+}
+
+
+.mid{
+    display:block;
+    width: 59%;
+    margin: 30px auto;
+    /* border: 2px solid green; */
+
+
+}
+.right{
+    position: absolute;
+    right: 13px;
+    top: 45px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    display: block;
+
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 23px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(207, 179, 21);
+}
+.btn{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid rgb(207, 176, 34);
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+   
+}
+.btn:hover{
+    background-color: rgb(64, 241, 48);
+}
+
+.container{
+    border: 2px solid white;
+    margin: 106px 676px;
+    padding: 50px;
+    width: 38%;
+    border-radius: 12px;
+
+}
+
+.form-group input{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: block;
+    width: 74%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin:20px auto;
+
+}
